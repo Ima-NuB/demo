@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="demo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="leftMenu">
+            <a href="#" id="riotLogo" onclick='riotGamesSwitcher()'>
+            </a>
+            <div onclick='riotGamesSwitcher()' id='triangle'></div>
+            <span id="seperator"></span>
+            <a href='https://playvalorant.com/vi-vn' target="_blank">
+                <img id="valorantLogo" src='./logo.JPG'>
+            </a>
+        </div>
+
+        <div class="midMenu">
+            <a href="#" id="box1" onmouseover="subBoxes1()" onmouseout="nonSubBoxes1()">
+                THÔNG TIN TRÒ CHƠI
+                <div id="triangle1"></div>
+            </a>
+
+            <a id="box2" href="https://playvalorant.com/vi-vn/media" target="_blank">
+                TRUYỀN THÔNG
+            </a>
+
+            <a href="https://playvalorant.com/vi-vn/news" id="box3" target="_blank">
+                TIN TỨC
+            </a>
+
+            <div id="box4" onmouseover="subBoxes4()" onmouseout="nonSubBoxes4()">
+                HỖ TRỢ
+                <div id="triangle3"></div>
+            </div>
+
+            <div id="box5" onmouseover="subBoxes5()" onmouseout="nonSubBoxes5()">
+                THÊM
+                <div id="triangle4"></div>
+            </div>
+        </div>
+
+        <div class="rightMenu">
+
+        </div>
+    <div id="subBoxes1" onmouseover="subBoxes1()" onmouseout="nonSubBoxes1()">
+        <a class="subBox1" href="https://playvalorant.com/vi-vn/agents/" target="_blank">
+            ĐIỆP VIÊN
+        </a>
+        <a class="subBox1" href="https://playvalorant.com/vi-vn/maps/" target="_blank">
+            BẢN ĐỒ
+        </a>
+        <a class="subBox1" href="https://playvalorant.com/vi-vn/arsenal/" target="_blank">
+            KHO VŨ KHÍ
+        </a>
+    </div>
+    <div id="subBoxes4" onmouseover="subBoxes4()" onmouseout="nonSubBoxes4()">
+        <a href='https://playvalorant.com/vi-vn/specs' target="_blank" class="subBox4">THÔNG SỐ</a>
+        <a target="_blank" href="https://support-valorant.riotgames.com/hc/vi" class="subBox4">HỖ TRỢ</a>
+        <a href="https://playvalorant.com/vi-vn/news/announcements/quy-chuan-cong-dong-valorant/" target="_blank" class="subBox4">QUY CHUẨN CỘNG ĐỒNG</a>
+    </div>
+    <div id="subBoxes5" onmouseover="subBoxes5()" onmouseout="nonSubBoxes5()">
+        <a href="#" class="subBox5" id="subBox5.1" onmouseover="subSubBoxes5()" onmouseout="nonSubSubBoxes5()">
+            MẠNG XÃ HỘI
+            <div id="triangle5"></div>
+        </a>
+        <a href="" class="subBox5">
+            THỂ THAO ĐIỆN TỬ
+        </a>
+    </div>
+    <div id="subSubBoxes5" onmouseover="subSubBoxes5()" onmouseout="nonSubSubBoxes5()">
+        <a href="https://www.facebook.com/VALORANTvn/" class="subSubBox5" target="_blank" onmouseover="keep()">
+            FACEBOOK
+        </a>
+        <a href="https://www.youtube.com/PlayValorant" class="subSubBox5" target="_blank" onmouseover="keep()">
+            YOUTUBE
+        </a>
+        <a href="https://www.instagram.com/valorantvn" class="subSubBox5" target="_blank" onmouseover="keep()">
+            INSTAGRAM
+        </a>
+    </div> 
+    </div>
+    <div class="switchWrapper">
+        <div id="triangle6"></div>
+        <div>
+            <div id="headline">
+                <a>
+                    RIOT GAMES
+                </a>
+            </div>
+            <div id="goToRiotGames">
+                <a href="https://www.riotgames.com/en" target="_blank">TỚI RIOTGAMES</a>
+                <img id="x" src="./x.png" alt="" onclick="closeSwitcher()">
+            </div>
+        </div>
+        <div class="switchGames">
+            <div class="valbd">
+                <a href="https://playvalorant.com/en-us/news/announcements/valorant-yr1-events/" target="_blank">
+                    <img id="bd" src="https://images.contentstack.io/v3/assets/blt0eb2a2986b796d29/blt6756f54097368487/60ad560f1df7ea69b75bb503/Year-One-Riotbar-Promo-Asset.jpg??&format=pjpg&quality=85" alt="join a month long party to celebrate valorant's birthday">
+                    <p>Join a month long party to celebrate valorant's birthda</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="" alt="">
+                    <p></p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="" alt="">
+                    <p></p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="" alt="">
+                    <p></p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="" alt="">
+                    <p></p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="" alt="">
+                    <p></p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class='video'>
+        <video >
+            <source src="">
+        </video>
+    </div>
+    <script src="demo.js"></script>
+</body>
+</html>
