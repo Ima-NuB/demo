@@ -37,7 +37,6 @@ function nonSubBoxes5(){
 function subSubBoxes5(){
     document.getElementById('subBoxes5').style.display='block'
     document.getElementById('subSubBoxes5').style.display='block'
-    
     document.getElementById('subSubBox5').style.borderBottom='2px solid #FF4655'
 }
 
@@ -47,6 +46,7 @@ function nonSubSubBoxes5(){
     document.getElementById('subBoxBox5').style.borderBottom='2px solid transparent'
 }
 
+
 function riotGamesSwitcher(){
     document.getElementById('riotLogo').style.transition='background-position 0.25s steps(15, end)'
     document.getElementById('riotLogo').style.backgroundPosition='0 0'
@@ -55,12 +55,16 @@ function riotGamesSwitcher(){
 }
 
 function keep(){
-    document.getElementById('subBox5.1').style.backgroundColor='#333333'
+    document.getElementById('subBox5-1').style.backgroundColor='#333333'
 }
 
-function closeSwitcher(){
-    document.getElementById('riotLogo').style.transition='background-position 0.25s steps(15, end)'
-    document.getElementById('riotLogo').style.backgroundPosition='0 -2400'
-    document.getElementById('triangle6').style.display='none'
-    //document.getElementById('switchWrapper').style.display='none'
+function keepnt(){
+    document.getElementById('subBox5-1').style.backgroundColor="#111111"
 }
+
+// function closeSwitcher(){
+//     document.getElementById('riotLogo').style.transition='background-position 0.25s steps(15, end)'
+//     document.getElementById('riotLogo').style.backgroundPosition='0 -2400'
+//     document.getElementById('triangle6').style.display='none'
+//     //document.getElementById('switchWrapper').style.display='none'
+// }
